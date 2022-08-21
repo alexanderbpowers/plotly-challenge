@@ -1,5 +1,5 @@
 
-var filepath = "../Plotly-challenge/samples.json";
+var filepath = "../plotly-challenge/samples.json";
 const dataPromise = d3.json(filepath)
 
 ////////////////////////////////////////////////////////////////////////////
