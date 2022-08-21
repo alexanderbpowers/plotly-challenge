@@ -53,6 +53,7 @@ function init() {
         yaxis: {
             showticklabels: true
         },
+        xaxis: {title: "Bacteria Sample Amount"},
         width: 600,
         paper_bgcolor: 'rgba(0,0,0,0)',
         plot_bgcolor: 'rgba(0,0,0,0)'
@@ -82,7 +83,8 @@ function init() {
         height: 400,
         width: 1200,
         paper_bgcolor: 'rgb(255, 230, 255)',
-        plot_bgcolor:  'rgb(255, 230, 255)'
+        plot_bgcolor:  'rgb(255, 230, 255)',
+        xaxis: {title: "OTU ID"}
     };
 
     Plotly.newPlot("bubble", data2, layout2)
